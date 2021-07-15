@@ -1,14 +1,15 @@
-from flask import Flask, render_template, 
-import requests
+from flask import Flask, render_template, jsonify
+import requests, random
 
 app = Flask(__name__)
 
 @app.route('/')
-def home():
-    animal = requests.get('http://duel:5000/get_animal')
-    country = requests.get('http://duel:5000/get_country')
-    winner = requests.post('http://duel:5000/get_winner')
-    return render_template('home.html', animal=animal.text, country=country.text, winner=winner.text )
+def fight():
+    animal = requests.get('http://duel_api:5000//get_animal')
+    winner = requests.get('http://duel_api:5000//get_winner')
+    country = requests.post('http://duel_api:5000//get_country',data=animal.text)
 
-if __name__ = "__main__":
+    return render_template('home.html', animal=animal.text, winner=winner.text, country=country.text) 
+
+if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True )

@@ -31,6 +31,7 @@ docker run -d \
     ${project_name}_server
 
 docker run -d \
-    --name ${project_name}_apo \
+    --name ${project_name}_api \
     --network ${project_name}_network \
     ${project_name}_api
+    

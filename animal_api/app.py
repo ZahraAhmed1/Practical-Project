@@ -1,11 +1,12 @@
-from flask import Flask
+from flask import Flask, jsonify
 import random
 
 app = Flask(__name__)
 
-@app.route('/get_animal', methods=['GET'])
+@app.route('/get_animal',methods=["GET"])
 def get_animal():
-    return random.choice(['whale', 'fox', 'lizard', 'cat', 'dog', 'ox'])
+    animal=random.choice(["bear","fish","cat","tiger"])
+    return animal
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True )
