@@ -6,10 +6,10 @@ app = Flask(__name__)
 @app.route('/get_country',methods=["POST"])
 def get_country():
     country = {
-        "bear":"yemen",
-        "cat": "japan",
-        "fish":"jamaica",
-        "tiger":"france"
+        "bear":"Yemen",
+        "cat": "Japan",
+        "fish":"Jamaica",
+        "tiger":"France"
 
     }
     return country[request.data.decode('utf-8')] 
