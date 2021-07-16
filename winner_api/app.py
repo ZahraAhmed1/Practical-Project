@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/get_winner',methods=(['GET']))
 def get_winner():
-    winner=random.choice(['win','lose'])
+    winner=random.choice(['winning and saved their mum.','losing and so the other animals ate their mum'])
     return winner    
       
 
