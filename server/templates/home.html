@@ -9,7 +9,16 @@
             Animal Duel
         </h1>
         <p>
-            Once upon a time a {{ animal }} decided to travel around the world. Their first stop was {{ country }}. When they arrived they found out that there there were other animals fighting for the prize of a {{ animal }}. The {{ animal }} realised that the {{ animal }} was their mum so they enlisted into the fight. They tried their very best and ended up {{ winner }} .           
+            If a {{ animal }} fights in {{ country }} then they will {{ winner }}  
+        </p>
+        <h2>
+            The last five Animal Duels
+        </h2>
+        <p>
+            {% for animal in last_five_duels %}
+            If a {{ animal.type }} fights in {{ animal.country }} then they will {{ animal.winner }}  
+            <br>
+            {% endfor %}
         </p>
     </body>
 </html>
