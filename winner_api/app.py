@@ -1,12 +1,18 @@
-from flask import Flask
+from flask import Flask, request 
 import random
 
 app = Flask(__name__)
 
-@app.route('/get_winner',methods=(['GET']))
+@app.route("/get_winner",methods=["POST"])
 def get_winner():
-    winner=random.choice(['winning and saved their mum.','losing and so the other animals ate their mum'])
-    return winner    
+    animal=request.get_json()
+    country=request.get_json()
+
+    if len(animal["animal"]) >= len(country["country"]):
+        winner="win"
+    else:
+        winner="lose"
+    return winner
       
 
 if __name__ == '__main__':
