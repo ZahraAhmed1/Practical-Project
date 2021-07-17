@@ -1,0 +1,21 @@
+version: '3.3'
+services:
+  server:
+    container_name: animal_duel_server
+    image: zahraahmed1/animal_duel_server
+    build: ./server
+    ports:
+    - published: 5000
+      target: 5000
+  animal_api:
+    container_name: animal_api
+    image: zahraahmed1/animal_api
+    build: ./animal_api
+  country_api:
+    container_name: country_api
+    image: zahraahmed1/country_api
+    build: ./country_api
+  winner_api:
+    container_name: winner_api
+    image: zahraahmed1/winner_api
+    build: ./winner_api    
