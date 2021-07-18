@@ -17,3 +17,19 @@ The full page is here https://trello.com/b/xgvGz3X6/practical-project
 
 Here is the front page of 
 
+### Pipeline and ERD Diagram
+
+here
+
+### Jenkins
+
+here
+
+### Risk Assessment
+
+here
+
+### Future Improvements
+
+
+
