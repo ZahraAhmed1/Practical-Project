@@ -7,7 +7,6 @@ pipeline {
         DATABASE_URI = credentials("DATABASE_URI")
     }
     stages {        
-        }
         stage('Build') {
             steps {
                 sh "docker-compose up -d --build"                                        
@@ -27,4 +26,5 @@ pipeline {
                 sh "docker stack deploy --compose-file docker-compose.yaml A"                
             }
         }
-    }
+    }    
+}
