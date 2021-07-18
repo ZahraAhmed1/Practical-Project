@@ -8,8 +8,9 @@ pipeline {
     }
     stages {        
         stage('Build') {
-            steps {
-                sh "docker-compose up -d --build"                                        
+            steps {                
+                sh "docker-compose up -d --build"  
+                sh "docker-compose push"                                      
             }
         }
         stage('Test') {
