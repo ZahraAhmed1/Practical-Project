@@ -10,11 +10,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh "sudo apt update"
-                sh "curl https://get.docker.com/ | sudo bash"
-                sh "docker-compose up -d --build"
-                sh "docker exec animal_duel_server python3 create.py"
-                sh "docker swarm init"                            
+                sh "docker-compose up -d --build"                                        
             }
         }
         stage('Test') {
