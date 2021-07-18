@@ -4,7 +4,7 @@ pipeline {
         skipStagesAfterUnstable()
     }
     environment {
-        DATABASE_URI=mysql+pymysql://root:flask@10.11.112.2:3306/animalduel
+        DATABASE_URI='mysql+pymysql://root:flask@10.11.112.2:3306/animalduel'
     }
     stages {        
         stage('Build') {
