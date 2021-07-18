@@ -4,12 +4,12 @@ pipeline {
         skipStagesAfterUnstable()
     }
     environment {
-        DATABASE_URI=credentials('DATABASE_URI')
-        SECRET_KEY=credentials('SECRET_KEY')
+        DATABASE_URI=credentials('DATABASE_URI')        
     }
     stages {        
         stage('Build') {
             steps {
+                sh "export DATABASE_URI=mysql+pymysql://root:flask@10.11.112.2:3306/animalduel"
                 sh "docker-compose up -d --build"                                        
             }
         }
