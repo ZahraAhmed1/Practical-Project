@@ -3,9 +3,6 @@ pipeline {
     options {
         skipStagesAfterUnstable()
     }
-    environment {
-        DATABASE_URI = credentials("DATABASE_URI")
-    }
     stages {        
         stage('Build') {
             steps {
