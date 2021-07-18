@@ -28,6 +28,11 @@ __SERVICE 4 (winner_api):__ This server produces an outcome of 'lose' or 'win'. 
 
 here
 
+This is the entity relation diagram database created in SQL. 
+
+<img width="300" alt="2021-07-18 (22)" src="https://user-images.githubusercontent.com/84967213/126079914-4a86cd38-f722-41d0-ad2d-d9c0ae691f41.png">
+
+
 ## Jenkins
 
 here
