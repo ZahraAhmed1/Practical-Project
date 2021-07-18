@@ -9,7 +9,8 @@ pipeline {
     stages {        
         stage('Build') {
             steps {                
-                sh "docker-compose up -d --build"  
+                sh "docker-compose up -d --build"
+                sh "docker-compose down"
                 sh "docker-compose push"                                      
             }
         }
