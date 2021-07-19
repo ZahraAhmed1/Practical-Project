@@ -14,11 +14,11 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh "pip3 install pytest"
-                sh "cd ./server && pytest"
-                sh "cd ./animal_api && pytest"
-                sh "cd ./country_api && pytest"
-                sh "cd ./winner_api && pytest"             
+                sh "pip3 install pytest flask flask_testing flask_sqlalchemy requests_mock pymysql"
+                sh "python3 -m pytest ./server"
+                sh "python3 -m pytest ./animal_api"
+                sh "python3 -m pytest ./country_api"
+                sh "python3 -m pytest ./winner_api"                        
             }
         }
         stage('Deploy') {
