@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh "pip3 install pytest flask flask_testing"
+                sh "pip3 install pytest flask flask_testing flask_sqlalchemy"
                 sh "python3 -m pytest ./server"
                 sh "python3 -m pytest ./animal_api"
                 sh "python3 -m pytest ./country_api"
