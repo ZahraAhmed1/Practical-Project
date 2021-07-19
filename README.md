@@ -61,8 +61,8 @@ Before starting this project I had detemined some risks that might occur and the
 
 ## Future Improvements
 
-Rather than displaying the last five animals I would display only one of the animals and create a short story where the get and post request could stay the same.
+Rather than displaying the last five animals I would display only one of the fights and create a short story where the get and post request could stay the same. Along with this I would also add variety within the country or have them located outside of earth on different planets.
 
-I would create more servers so that a lot of peopke can be on the site without waiting. As well as that I would also create more about the animals on SQL (e.g. their fur, diet, sleep pattern)
+I would create more servers so that a lot of people can be on the site without waiting. As well as that I would also create more about the animals on SQL database (e.g. their fur, diet, sleep pattern)
 
 
