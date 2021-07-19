@@ -41,7 +41,11 @@ I ran some stages on Jenkins that woudl
 
 ## Risk Assessment
 
-here
+Before starting this project I had detemined some risks that might occur and their likelihood.
+
+
+<img width="828" alt="2021-07-19 (13)" src="https://user-images.githubusercontent.com/84967213/126111981-65df737b-f9c6-4799-bdd8-bda52df1c361.png">
+
 
 ## Future Improvements
 
