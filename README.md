@@ -35,7 +35,9 @@ This is the entity relation diagram database created in SQL.
 
 ## Jenkins
 
-here
+I ran some stages on Jenkins that woudl
+
+<img width="596" alt="2021-07-19 (10)" src="https://user-images.githubusercontent.com/84967213/126105363-83258f5c-c3cc-4115-8ad5-153f9c2c81f6.png">
 
 ## Risk Assessment
 
