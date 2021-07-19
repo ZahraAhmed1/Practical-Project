@@ -19,7 +19,9 @@ Here is a [Trello board](https://trello.com/b/xgvGz3X6/practical-project) which 
 
 Here is the front page of 
 
-(picture)
+<img width="314" alt="2021-07-19 (17)" src="https://user-images.githubusercontent.com/84967213/126113148-e04f46df-4af1-414a-939d-abf3843ee7f7.png">
+
+### The architecture 
 
 __SERVICE 1 (server):__ This will be communicating with the other servers and persisting data from the database based on the ERD diagram.
 
@@ -52,5 +54,8 @@ Before starting this project I had detemined some risks that might occur and the
 
 ## Future Improvements
 
+Rather than displaying the last five animals I would display only one of the animals and create a short story where the get and post request could stay the same.
+
+I would create more servers so that a lot of peopke can be on the site without waiting. As well as that I would also create more about the animals on SQL (e.g. their fur, diet, sleep pattern)
 
 
