@@ -9,7 +9,10 @@ I created an applicaiton where you can determine if an animal will win or lose w
 
 ## Trello Board
 
-Here is a [Trello board](https://trello.com/b/xgvGz3X6/practical-project) which is my choice of the equivalent of a Kanban board.
+Here is a [Trello board](https://trello.com/b/xgvGz3X6/practical-project) which is my choice of the equivalent of a Kanban board. This is a good method as it makes everything like a message 
+
+<img width="900" alt="2021-07-19 (15)" src="https://user-images.githubusercontent.com/84967213/126112513-935eb68e-2a06-42ba-9f46-e43d5b2ea2a7.png">
+
 
 
 ## The application
