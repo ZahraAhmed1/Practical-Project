@@ -15,10 +15,10 @@ pipeline {
         stage('Test') {
             steps {
                 sh "pip3 install pytest"
-                sh "cd ./server && pytest"
-                sh "cd ./animal_api && pytest"
-                sh "cd ./country_api && pytest"
-                sh "cd ./winner_api && pytest"             
+                sh "pytest ./server/tests/test_server.py"
+                sh "pytest ./animal_api/tests/test_animal.py"
+                sh "pytest ./country_api/tests/test_country.py"
+                sh "pytest ./winner_api/tests/test_winner.py"                        
             }
         }
         stage('Deploy') {
