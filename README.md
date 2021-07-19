@@ -3,6 +3,15 @@
 
 ## Contents 
 
+* [Overview](#overview)
+* [Trello Board](#Trello-Board)
+* [The Application](#The-Application)
+* [Pipeline and ERD Diagram](#Pipeline-and-ERD Diagram)
+* [Jenkins](#Jenkins)
+* [Risk Assessment](#Risk-Assessment)
+* [Future Improvements](#Future-Improvements)
+
+
 ## Overview
 
 I created an applicaiton where you can determine if an animal will win or lose while fighting in a different country.
@@ -15,7 +24,7 @@ Here is a [Trello board](https://trello.com/b/xgvGz3X6/practical-project) which 
 
 
 
-## The application
+## The Application
 
 Here is the front page of 
 
