@@ -6,7 +6,7 @@
 * [Overview](#overview)
 * [Trello Board](#Trello-Board)
 * [The Application](#The-Application)
-* [Pipeline and ERD Diagram](#Pipeline-and-ERD Diagram)
+* [Pipeline and ERD Diagram](#Pipeline-and-ERD-Diagram)
 * [Jenkins](#Jenkins)
 * [Risk Assessment](#Risk-Assessment)
 * [Future Improvements](#Future-Improvements)
@@ -26,7 +26,7 @@ Here is a [Trello board](https://trello.com/b/xgvGz3X6/practical-project) which 
 
 ## The Application
 
-Here is the front page of 
+Here is the front page of the app. It is very basic but can easily be adapted and changed on the servers.
 
 <img width="314" alt="2021-07-19 (17)" src="https://user-images.githubusercontent.com/84967213/126113148-e04f46df-4af1-414a-939d-abf3843ee7f7.png">
 
@@ -40,8 +40,6 @@ __SERVICE 4 (winner_api):__ This server produces an outcome of 'lose' or 'win'. 
 
 ## Pipeline and ERD Diagram
 
-here
-
 This is the entity relation diagram database created in SQL. 
 
 <img width="300" alt="2021-07-18 (22)" src="https://user-images.githubusercontent.com/84967213/126079914-4a86cd38-f722-41d0-ad2d-d9c0ae691f41.png">
@@ -49,7 +47,7 @@ This is the entity relation diagram database created in SQL.
 
 ## Jenkins
 
-I ran some stages on Jenkins that woudl
+I ran some stages on the CI server Jenkins that would build, test and deploy the application
 
 <img width="596" alt="2021-07-19 (10)" src="https://user-images.githubusercontent.com/84967213/126105363-83258f5c-c3cc-4115-8ad5-153f9c2c81f6.png">
 
