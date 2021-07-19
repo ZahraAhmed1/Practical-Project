@@ -9,9 +9,6 @@ pipeline {
     stages {        
         stage('Build') {
             steps {
-                sh "docker rm -vf $(docker ps -a -q)"
-                sh "docker rmi -f $(docker images -a -q)"
-                sh "docker system prune"
                 sh "docker-compose up -d --build"            
                 sh "docker-compose push"                                      
             }
